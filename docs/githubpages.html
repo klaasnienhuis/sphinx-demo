@@ -172,20 +172,26 @@
 <div class="section" id="create-a-github-repository">
 <h2>Create a Github repository<a class="headerlink" href="#create-a-github-repository" title="Permalink to this headline">¶</a></h2>
 <p>There are several ways to get started with Github, but you&#8217;ll have to create an account and create a repository. I&#8217;ve made a public repo like so</p>
-<img alt="_images\snipaste_20170406_144640" src="_images\snipaste_20170406_144640" />
+<img alt="_images/snipaste_20170406_144640.png" src="_images/snipaste_20170406_144640.png" />
 <p><em>Create a new github repository</em></p>
 </div>
 <div class="section" id="clone-the-repo">
 <h2>Clone the repo<a class="headerlink" href="#clone-the-repo" title="Permalink to this headline">¶</a></h2>
 <p>With any github client, or with the git commandline, you can clone the repository to your local machine (where you&#8217;re writing the documentation). Github will ask you where to clone the repo to.</p>
-<p>Once the repo has been cloned, move your documentation files to the folder.</p>
-<p>Clone repo
-Add files
-Setup folder</p>
+<p>Once the repo has been cloned, move your documentation files to the folder. Make sure the index.html file is in the docs folder. This is what github expects when making the pages.</p>
+<img alt="_images/snipaste_20170406_145941.png" src="_images/snipaste_20170406_145941.png" />
+<p><em>When your github client is connected, you can easily clone the repository you just made online</em></p>
+<p>Once the repository has been cloned (it should be an empty folder) you can copy the documentation files into it. You can make your first commit after that. And once committed, push it to github.</p>
+<img alt="_images/snipaste_20170409_202428.png" src="_images/snipaste_20170409_202428.png" />
+<p><em>The first commit and sync</em></p>
 </div>
 <div class="section" id="setup-for-pages">
 <h2>Setup for pages<a class="headerlink" href="#setup-for-pages" title="Permalink to this headline">¶</a></h2>
-<p>Change settings and create a page</p>
+<p>Now that we&#8217;ve pushed the documentation to github we can set it up for hosting it as a regular webpage. First make sure that you actually have a <cite>docs</cite> folder in the root of your repository and that in there the built documentation sits. It shouldn&#8217;t be in a subfolder, but directly in the <cite>docs</cite> folder.</p>
+<p>Then, got to your repo on github.com and go to the settings. Scroll down to the github pages section and pick the suggested option in the screenshot.</p>
+<img alt="_images/snipaste_20170409_204301.png" src="_images/snipaste_20170409_204301.png" />
+<p><em>The first commit and sync</em></p>
+<p>Once that&#8217;s saves, the pages should show you the url for the documentation. In my case it&#8217;s <a class="reference external" href="https://klaasnienhuis.github.io/sphinx-demo/">https://klaasnienhuis.github.io/sphinx-demo</a> Keep in mind it can take a few minutes to get going. If it doesn&#8217;t make sure your <cite>index.html</cite> is directly in the <cite>docs</cite> folder and that there&#8217;s a <cite>nojekyll</cite> file.</p>
 </div>
 </div>
 

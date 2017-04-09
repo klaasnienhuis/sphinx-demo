@@ -27,14 +27,23 @@ Once the repo has been cloned, move your documentation files to the folder. Make
 
 .. image:: _images\snipaste_20170406_145941.png
 
-*Create a new github repository*
+*When your github client is connected, you can easily clone the repository you just made online*
 
+Once the repository has been cloned (it should be an empty folder) you can copy the documentation files into it. You can make your first commit after that. And once committed, push it to github.
 
-Clone repo
-Add files
-Setup folder
+.. image:: _images\snipaste_20170409_202428.png
+
+*The first commit and sync*
 
 Setup for pages
 ---------------
 
-Change settings and create a page
+Now that we've pushed the documentation to github we can set it up for hosting it as a regular webpage. First make sure that you actually have a `docs` folder in the root of your repository and that in there the built documentation sits. It shouldn't be in a subfolder, but directly in the `docs` folder.
+
+Then, got to your repo on github.com and go to the settings. Scroll down to the github pages section and pick the suggested option in the screenshot.
+
+.. image:: _images\snipaste_20170409_204301.png
+
+*The first commit and sync*
+
+Once that's saves, the pages should show you the url for the documentation. In my case it's `https://klaasnienhuis.github.io/sphinx-demo <https://klaasnienhuis.github.io/sphinx-demo/>`_ Keep in mind it can take a few minutes to get going. If it doesn't make sure your `index.html` is directly in the `docs` folder and that there's a `nojekyll` file.
