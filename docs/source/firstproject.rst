@@ -10,7 +10,7 @@ You can follow along with the documentation on `sphinx-doc.org <http://www.sphin
 Theme
 -----
 
-Sphinx docs can be themed. The default theme is called Alabaster, but I like the Read the Docs theme more. We've already installed it in the previous step, now we need to add it to the project. Check out the `github page <https://github.com/rtfd/sphinx_rtd_theme#via-package>`_ for the theme how to do that. Basically, you need to add to the ``conf.py`` file::
+Sphinx docs can be themed. The default theme is called Alabaster, but I like the Read the Docs theme more. It's what you're looking at right now! We've already installed it in the previous step, now we need to add it to the project. Check out the `github page <https://github.com/rtfd/sphinx_rtd_theme#via-package>`_ for the theme how to do that. Basically, you need to add to the ``conf.py`` file::
 
 	import sphinx_rtd_theme
 	html_theme = "sphinx_rtd_theme"

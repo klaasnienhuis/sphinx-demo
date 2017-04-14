@@ -39,3 +39,12 @@ Read the Docs theme
 -------------------
 
 I like the looks of the `Read the Docs theme <https://github.com/rtfd/sphinx_rtd_theme>`_, so I also install that by entering ``pip install sphinx_rtd_theme`` in a command prompt.
+
+Summary
+-------
+
+At this moment you should have installed the following items
+
+- Python
+- Sphinx
+- Read the docs theme for Sphinx

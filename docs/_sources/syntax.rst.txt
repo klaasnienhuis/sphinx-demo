@@ -3,6 +3,8 @@
 Restructured text syntax
 ========================
 
+Now you can actually start writing your documentation. I prefer to use the restructuredtext format for that. It's similar to markdown but it has a few special powers.
+
 The syntax for rst is quite elaborate and for the love of me, I always forget. That's why I look up how to write stuff all the time. Excellent sources are this `cheatsheet <http://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html>`_ by Thomas Cokelaer and this `primer <http://www.sphinx-doc.org/en/stable/rest.html#source-code>`_. But certain things I do remember. Here's how I work, this is not the definitive way, but it works for me.
 
 Table of contents
